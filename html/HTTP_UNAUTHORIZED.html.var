@@ -1,13 +1,13 @@
 Content-language: en
 Content-type: text/html; charset=UTF-8
 Body:----------en--
-<!--#set var="TITLE" value="Access forbidden!"
+<!--#set var="TITLE" value="Authentication required!"
 --><!--#include virtual="../include/top.html" -->
-<img src="/error/efn/img/403-Forbidden.jpg" alt="Hamster rejects you" width="450" height="450"/>
+<img src="/error/efn/img/401-Unauthorized.jpg" alt="Hamster stopping you" width="450" height="450"/>
 </p>
 <p>
 
-  Our hamster has for some reason decided to deny you access.
+  Our hamster just need to check your ID.
 <!--#include virtual="../include/bottom.html" -->
 ----------en--
  
@@ -15,12 +15,12 @@ Content-language: nb
 Content-type: text/html; charset=UTF-8
 Body:----------nb--
 <!--#set var="CONTENT_LANGUAGE" value="nb"
---><!--#set var="TITLE" value="Adgang forbudt!"
+--><!--#set var="TITLE" value="Autentisering kreves!"
 --><!--#include virtual="../include/top.html" -->
-<img src="/error/efn/img/403-Forbidden.jpg" alt="Hamster avviser deg" width="450" height="450"/>
+<img src="/error/efn/img/401-Unauthorized.jpg" alt="Hamster stopper deg" width="450" height="450"/>
 </p>
 <p>
-  Hamsteren vår har av en eller annen grunn bestemt seg for at du ikke får adgang.
+  Hamsteren vår må bare sjekke legitimasjonen din.
 
 <!--#include virtual="../include/bottom.html" -->
 ----------nb--

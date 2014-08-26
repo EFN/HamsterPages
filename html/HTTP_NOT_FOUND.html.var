@@ -1,0 +1,26 @@
+Content-language: en
+Content-type: text/html; charset=UTF-8
+Body:----------en--
+<!--#set var="TITLE" value="Object not found!"
+--><!--#include virtual="../include/top.html" -->
+<img src="/error/efn/img/404-NotFound.jpg" alt="Our hamsters have searched, but haven't found" width="450" height="450"/>
+</p>
+<p>
+
+  Our hamsters regrettably couldn't find what you were looking for.
+<!--#include virtual="../include/bottom.html" -->
+----------en--
+ 
+Content-language: nb
+Content-type: text/html; charset=UTF-8
+Body:----------nb--
+<!--#set var="CONTENT_LANGUAGE" value="nb"
+--><!--#set var="TITLE" value="Objektet ble ikke funnet!"
+--><!--#include virtual="../include/top.html" -->
+<img src="/error/efn/img/404-NotFound.jpg" alt="Hamsterne våre har lett, men har ikke funnet" width="450" height="450"/>
+</p>
+<p>
+  Hamsterene våre kunne dessverre ikke finne det du leter etter.
+
+<!--#include virtual="../include/bottom.html" -->
+----------nb--
