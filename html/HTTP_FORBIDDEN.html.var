@@ -1,0 +1,47 @@
+Content-language: en
+Content-type: text/html; charset=UTF-8
+Body:----------en--
+<!--#set var="TITLE" value="Access forbidden!"
+--><!--#include virtual="../include/top.html" -->
+<img src="/error/efn/img/401-Unauthorized.jpg" alt="Hamster stopping you" width="450" height="450"/>
+
+
+  <!--#if expr="v('REDIRECT_URL') =~ m:/$:" -->
+
+    You don't have permission to access the requested directory.
+    There is either no index document or the directory is read-protected.
+
+  <!--#else -->
+
+    You don't have permission to access the requested object.
+    It is either read-protected or not readable by the server.
+
+  <!--#endif -->
+<!--#include virtual="../include/bottom.html" -->
+----------en--
+ 
+Content-language: nb
+Content-type: text/html; charset=UTF-8
+Body:----------nb--
+<!--#set var="CONTENT_LANGUAGE" value="nb"
+--><!--#set var="TITLE" value="Adgang forbudt!"
+--><!--#include virtual="../include/top.html" -->
+<img src="/error/efn/img/401-Unauthorized.jpg" alt="Hamster stopper deg" width="450" height="450"/>
+</p>
+<p>
+
+  <!--#if expr="v('REDIRECT_URL') =~ m:/$:" -->
+
+    Du har ikke tilstrekkelige rettigheter for å få tilgang til den
+    ønskede katalogen. Det eksisterer ikke et indeksdokument, eller
+    katalogen er lesebeskyttet.
+
+  <!--#else -->
+
+    Du har ikke tilstrekkelige rettigheter for å få adgang til det
+    ønskede dokumentet. Objektet er lesebeskyttet, eller ikke lesbart
+    for serveren.
+
+  <!--#endif -->
+<!--#include virtual="../include/bottom.html" -->
+----------nb--
