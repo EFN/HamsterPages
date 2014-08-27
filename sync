@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+[ -d include ] && rm -r include
+
+svn export https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/error/include
+svn export --force https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/error/contact.html.var
+patch contact.html.var norwegian.patch

@@ -1,0 +1,16 @@
+--- contact.html.var	2010-12-27 20:09:00.789907000 +0100
++++ contact.html.var.new	2014-08-27 23:09:54.333938338 +0200
+@@ -74,6 +74,13 @@
+ de <a href="mailto:<!--#echo encoding="url" var="SERVER_ADMIN" -->">webmaster</a> te contacteren.
+ ----------nl--
+ 
++Content-language: nb
++Content-type: text/html; charset=UTF-8
++Body:----------nb--
++Om du tror dette skyldes en serverfeil, venligst kontakt
++<a href="mailto:<!--#echo encoding="url" var="SERVER_ADMIN" -->">webansvarlig</a>.
++----------nb--
++
+ Content-language: pl
+ Content-type: text/html; charset=UTF-8
+ Body:----------pl--
