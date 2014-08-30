@@ -5,6 +5,7 @@
 clean=false
 [ "$1" == "clean" ] && clean=true
 
+cd html
 [ -d include ] && rm -r include
 
 
@@ -12,11 +13,11 @@ if ! $clean
 then
   svn export https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/error/include
   svn export --force https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/error/contact.html.var
-  patch contact.html.var patches/norwegian.patch
-  patch include/top.html patches/base_href.patch
+  patch contact.html.var ../patches/norwegian.patch
+  patch include/top.html ../patches/base_href.patch
   if $APACHE22_SUPPORT
   then
-      patch include/top.html patches/apache-2.2-backport.patch
+      patch include/top.html ../patches/apache-2.2-backport.patch
   fi
   echo "<!--#set var=\"BASE_HREF\" value=\"${BASE_HREF}\" -->" > include/config.html
 else
