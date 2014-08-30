@@ -1,11 +1,12 @@
 #!/bin/bash
 
+. config.ini
+
 clean=false
 [ "$1" == "clean" ] && clean=true
 
 [ -d include ] && rm -r include
 
-BASE_HREF=//efn.no/error/efn/
 
 if ! $clean
 then
@@ -13,7 +14,10 @@ then
   svn export --force https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/error/contact.html.var
   patch contact.html.var patches/norwegian.patch
   patch include/top.html patches/base_href.patch
-  patch include/top.html patches/apache-2.2-backport.patch
+  if $APACHE22_SUPPORT
+  then
+      patch include/top.html patches/apache-2.2-backport.patch
+  fi
   echo "<!--#set var=\"BASE_HREF\" value=\"${BASE_HREF}\" -->" > include/config.html
 else
   rm contact.html.var
