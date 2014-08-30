@@ -1,0 +1,9 @@
+--- include/top.html.orig	2014-08-30 23:57:16.000000000 +0200
++++ include/top.html	2014-08-30 23:57:29.672468044 +0200
+@@ -1,5 +1,5 @@
+ <!--#include virtual="config.html" -->
+-<!--#if expr="-z v('CONTENT_LANGUAGE')"
++<!--#if expr="! $CONTENT_LANGUAGE"
+ --><!--#set var="CONTENT_LANGUAGE" value="en"
+ --><!--#endif
+ --><?xml version="1.0" encoding="UTF-8"?>

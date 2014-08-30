@@ -2,9 +2,9 @@ Content-language: en
 Content-type: text/html; charset=UTF-8
 Body:----------en--
 <!--#set var="TITLE" value="Server error!"
---><!--#include virtual="../include/top.html" -->
+--><!--#include virtual="include/top.html" -->
 
-<img src="/error/efn/img/500-InternalServerError.jpg" alt="Hamster with a broken cable" width="450" height="450"/>
+<img src="img/500-InternalServerError.jpg" alt="Hamster with a broken cable" width="450" height="450"/>
 <p>Det kan se ut som om en av hamsterene våre har gnagd over kabelen til serveren!</p>
 <p>It appears one of our hamsters has gnawed on the server cable.!</p>
 </body>
@@ -15,9 +15,9 @@ Content-language: nb
 Content-type: text/html; charset=UTF-8
 Body:----------nb--
 <!--#set var="TITLE" value="Serverfeil!" -->
-<!--#include virtual="../include/top.html" -->
+<!--#include virtual="include/top.html" -->
 
-<img src="/error/efn/img/500-InternalServerError.jpg" alt="Hamster med en delt kabel" width="450" height="450"/>
+<img src="img/500-InternalServerError.jpg" alt="Hamster med en delt kabel" width="450" height="450"/>
 <p>Det kan se ut som om en av hamsterene våre har gnagd over kabelen til serveren!</p>
 </body>
 </html>

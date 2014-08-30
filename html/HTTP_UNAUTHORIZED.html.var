@@ -2,13 +2,13 @@ Content-language: en
 Content-type: text/html; charset=UTF-8
 Body:----------en--
 <!--#set var="TITLE" value="Authentication required!"
---><!--#include virtual="../include/top.html" -->
-<img src="/error/efn/img/401-Unauthorized.jpg" alt="Hamster stopping you" width="450" height="450"/>
+--><!--#include virtual="include/top.html" -->
+<img src="img/401-Unauthorized.jpg" alt="Hamster stopping you" width="450" height="450"/>
 </p>
 <p>
 
   Our hamster just need to check your ID.
-<!--#include virtual="../include/bottom.html" -->
+<!--#include virtual="include/bottom.html" -->
 ----------en--
  
 Content-language: nb
@@ -16,11 +16,11 @@ Content-type: text/html; charset=UTF-8
 Body:----------nb--
 <!--#set var="CONTENT_LANGUAGE" value="nb"
 --><!--#set var="TITLE" value="Autentisering kreves!"
---><!--#include virtual="../include/top.html" -->
-<img src="/error/efn/img/401-Unauthorized.jpg" alt="Hamster stopper deg" width="450" height="450"/>
+--><!--#include virtual="include/top.html" -->
+<img src="img/401-Unauthorized.jpg" alt="Hamster stopper deg" width="450" height="450"/>
 </p>
 <p>
   Hamsteren vår må bare sjekke legitimasjonen din.
 
-<!--#include virtual="../include/bottom.html" -->
+<!--#include virtual="include/bottom.html" -->
 ----------nb--

@@ -5,11 +5,16 @@ clean=false
 
 [ -d include ] && rm -r include
 
+BASE_HREF=//efn.no/error/efn/
+
 if ! $clean
 then
   svn export https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/error/include
   svn export --force https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/error/contact.html.var
   patch contact.html.var patches/norwegian.patch
+  patch include/top.html patches/base_href.patch
+  patch include/top.html patches/apache-2.2-backport.patch
+  echo "<!--#set var=\"BASE_HREF\" value=\"${BASE_HREF}\" -->" > include/config.html
 else
   rm contact.html.var
 fi

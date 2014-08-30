@@ -2,9 +2,9 @@ Content-language: en
 Content-type: text/html; charset=UTF-8
 Body:----------en--
 <!--#set var="TITLE" value="Service unavailable!"
---><!--#include virtual="../include/top.html" -->
+--><!--#include virtual="include/top.html" -->
 
-<img src="/error/efn/img/503-ServiceUnavailable.jpg" alt="Exhausted hamster resting by the training wheel" width="450" height="450"/>
+<img src="img/503-ServiceUnavailable.jpg" alt="Exhausted hamster resting by the training wheel" width="450" height="450"/>
 <p>Our hamsters are exhausted, and need to take a short break. But our servers should be up and running again soon.</p>
 </body>
 </html>
@@ -14,9 +14,9 @@ Content-language: nb
 Content-type: text/html; charset=UTF-8
 Body:----------nb--
 <!--#set var="TITLE" value="Serveren er midlertidig utilgjengelig" -->
-<!--#include virtual="../include/top.html" -->
+<!--#include virtual="include/top.html" -->
 
-<img src="/error/efn/img/503-ServiceUnavailable.jpg" alt="Utslitt hamster hvilende ved hamsterhjulet" width="450" height="450"/>
+<img src="img/503-ServiceUnavailable.jpg" alt="Utslitt hamster hvilende ved hamsterhjulet" width="450" height="450"/>
 <p>Våre hamstere er utslitt, og trenger å ta en liten pust i bakken. Men serveren bør snart være i gang igjen.</p>
 </body>
 </html>

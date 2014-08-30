@@ -2,13 +2,13 @@ Content-language: en
 Content-type: text/html; charset=UTF-8
 Body:----------en--
 <!--#set var="TITLE" value="Access forbidden!"
---><!--#include virtual="../include/top.html" -->
-<img src="/error/efn/img/403-Forbidden.jpg" alt="Hamster rejects you" width="450" height="450"/>
+--><!--#include virtual="include/top.html" -->
+<img src="img/403-Forbidden.jpg" alt="Hamster rejects you" width="450" height="450"/>
 </p>
 <p>
 
   Our hamster has for some reason decided to deny you access.
-<!--#include virtual="../include/bottom.html" -->
+<!--#include virtual="include/bottom.html" -->
 ----------en--
  
 Content-language: nb
@@ -16,11 +16,11 @@ Content-type: text/html; charset=UTF-8
 Body:----------nb--
 <!--#set var="CONTENT_LANGUAGE" value="nb"
 --><!--#set var="TITLE" value="Adgang forbudt!"
---><!--#include virtual="../include/top.html" -->
-<img src="/error/efn/img/403-Forbidden.jpg" alt="Hamster avviser deg" width="450" height="450"/>
+--><!--#include virtual="include/top.html" -->
+<img src="img/403-Forbidden.jpg" alt="Hamster avviser deg" width="450" height="450"/>
 </p>
 <p>
   Hamsteren vår har av en eller annen grunn bestemt seg for at du ikke får adgang.
 
-<!--#include virtual="../include/bottom.html" -->
+<!--#include virtual="include/bottom.html" -->
 ----------nb--

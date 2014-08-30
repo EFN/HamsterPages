@@ -2,9 +2,9 @@ Content-language: en
 Content-type: text/html; charset=UTF-8
 Body:----------en--
 <!--#set var="TITLE" value="Scheduled maintenance!"
---><!--#include virtual="../include/top.html" -->
+--><!--#include virtual="include/top.html" -->
 
-<img src="/error/efn/img/503-ScheduledMaintenance.jpg" alt="Hamster cheering on vacation" width="450" height="450"/>
+<img src="img/503-ScheduledMaintenance.jpg" alt="Hamster cheering on vacation" width="450" height="450"/>
 <p>Our hamsters are on vacation while we are maintaining their wheels.</p>
 </body>
 </html>
@@ -15,9 +15,9 @@ Content-type: text/html; charset=UTF-8
 Header: Retry-After: 3600
 Body:----------nb--
 <!--#set var="TITLE" value="Planlagt vedlikehold" -->
-<!--#include virtual="../include/top.html" -->
+<!--#include virtual="include/top.html" -->
 
-<img src="/error/efn/img/503-ScheduledMaintenance.jpg" alt="Hamster skålende på ferie" width="450" height="450"/>
+<img src="img/503-ScheduledMaintenance.jpg" alt="Hamster skålende på ferie" width="450" height="450"/>
 <p>Våre hamstere er på ferie, mens vi vedlikeholder hamsterhjulene.</p>
 </body>
 </html>
