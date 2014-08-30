@@ -1,2 +1,3 @@
 BASE_HREF=//efn.no/error/efn/
 APACHE22_SUPPORT=true
+MAKE_THUMBNAIL_VIEWER=true

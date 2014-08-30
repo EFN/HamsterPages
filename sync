@@ -20,6 +20,15 @@ then
       patch include/top.html ../patches/apache-2.2-backport.patch
   fi
   echo "<!--#set var=\"BASE_HREF\" value=\"${BASE_HREF}\" -->" > include/config.html
+  if $MAKE_THUMBNAIL_VIEWER
+  then
+      cp ../viewer/* .
+      [ -d js ] && rm -r js
+      mkdir js
+      cd js
+      wget https://github.com/niklasvh/html2canvas/releases/download/0.4.1/html2canvas.js
+      cp ../../js/* .
+  fi
 else
   rm contact.html.var
 fi

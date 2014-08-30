@@ -1,0 +1,29 @@
+Content-type: text/html; charset=UTF-8
+Body:----------en--
+<!--#include virtual="include/config.html" -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>List of HamsterPages</title>
+<meta charset="UTF-8">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="<!--#echo var="BASE_HREF" -->js/html2canvas.js" type="text/javascript" ></script>
+<script src="<!--#echo var="BASE_HREF" -->js/thumbrenderer.js" type="text/javascript" ></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    var parent = document.getElementById('thumbParent');
+    var scaling = 300.0 / 700.0;
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_FORBIDDEN.html.var", parent, 300, 300, scaling);
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_GATEWAY_TIMEOUT.html.var", parent, 300, 300, scaling);
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_INTERNAL_SERVER_ERROR.html.var", parent, 300, 300, scaling);
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_NOT_FOUND.html.var", parent, 300, 300, scaling);
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_SCHEDULED_MAINTENANCE.html.var", parent, 300, 300, scaling);
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_SERVICE_UNAVAILABLE.html.var", parent, 300, 300, scaling);
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_UNAUTHORIZED.html.var", parent, 300, 300, scaling);
+});
+</script>
+<body>
+<figure id="thumbParent"> </figure>
+</body>
+</html>
+----------en--
