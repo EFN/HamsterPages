@@ -168,8 +168,7 @@ function createThumbFromURL(url, parent, width, height, scale)
 	    scale: scale
 	},
 	createLink: true,
-	logging: false,
-	removeRenderCanvas: false
+	logging: false
     };
     return setupThumb(url, null, options);
 }
