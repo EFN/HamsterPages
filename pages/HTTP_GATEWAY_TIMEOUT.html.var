@@ -7,7 +7,6 @@ Body:----------en--
 <img src="img/504-GatewayTimeout.jpg" alt="Hamster looking at his watch" width="450" height="450"/>
 </p>
 <p>It appears our hamsters didn't make it on time!
-
 <!--#include virtual="include/bottom.html" -->
 ----------en--
 
@@ -19,6 +18,5 @@ Body:----------nb--
 <img src="img/504-GatewayTimeout.jpg" alt="Hamster som ser på klokken" width="450" height="450"/>
 </p>
 <p>Det ser ut som om hamsterne våre ikke rakk frem i tide!
-
 <!--#include virtual="include/bottom.html" -->
 ----------nb--

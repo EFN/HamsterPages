@@ -6,7 +6,6 @@ Body:----------en--
 <img src="img/401-Unauthorized.jpg" alt="Hamster stopping you" width="450" height="450"/>
 </p>
 <p>
-
   Our hamster just need to check your ID.
 <!--#include virtual="include/bottom.html" -->
 ----------en--
@@ -21,6 +20,5 @@ Body:----------nb--
 </p>
 <p>
   Hamsteren vår må bare sjekke legitimasjonen din.
-
 <!--#include virtual="include/bottom.html" -->
 ----------nb--

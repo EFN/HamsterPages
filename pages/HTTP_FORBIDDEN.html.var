@@ -6,7 +6,6 @@ Body:----------en--
 <img src="img/403-Forbidden.jpg" alt="Hamster rejects you" width="450" height="450"/>
 </p>
 <p>
-
   Our hamster has for some reason decided to deny you access.
 <!--#include virtual="include/bottom.html" -->
 ----------en--
@@ -21,6 +20,5 @@ Body:----------nb--
 </p>
 <p>
   Hamsteren vår har av en eller annen grunn bestemt seg for at du ikke får adgang.
-
 <!--#include virtual="include/bottom.html" -->
 ----------nb--
