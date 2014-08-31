@@ -106,7 +106,7 @@ function setupThumb(url, thumbCanvas, options)
 	options.renderCanvas.width = thumbCanvas.width / options.bounds.scale;
 	if (options.logging)
 	    console.log('Canvas size: ' + options.renderCanvas.width + 'x' + options.renderCanvas.height);
-	document.body.appendChild(options.renderCanvas);
+	options.parent.appendChild(options.renderCanvas);
 	if(typeof options.removeRenderCanvas === 'undefined') {
 	    options.removeRenderCanvas = true;
 	};
