@@ -5,6 +5,7 @@
 clean=false
 [ "$1" == "clean" ] && clean=true
 
+[ -d html ] && rm -r html
 [ ! -d html ] && cp -r pages html
 cd html
 [ -d include ] && rm -r include
@@ -20,7 +21,7 @@ then
   then
       patch include/top.html ../patches/apache-2.2-backport.patch
   fi
-  echo "<!--#set var=\"BASE_HREF\" value=\"${BASE_HREF}\" -->" > include/config.html
+  echo -n "<!--#set var=\"BASE_HREF\" value=\"${BASE_HREF}\" -->" > include/config.html
   if $MAKE_THUMBNAIL_VIEWER
   then
       cp ../viewer/* .

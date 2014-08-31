@@ -1,15 +1,17 @@
---- include/top.html.orig	2011-10-10 23:06:59.181113000 +0200
-+++ include/top.html	2014-08-30 23:52:04.487345923 +0200
-@@ -1,3 +1,4 @@
-+<!--#include virtual="config.html" -->
- <!--#if expr="-z v('CONTENT_LANGUAGE')"
+--- top.html	2011-10-10 23:06:59.181113000 +0200
++++ top.html.new	2014-08-31 14:23:46.021691125 +0200
+@@ -1,4 +1,5 @@
+-<!--#if expr="-z v('CONTENT_LANGUAGE')"
++<!--#include virtual="config.html"
++--><!--#if expr="-z v('CONTENT_LANGUAGE')"
  --><!--#set var="CONTENT_LANGUAGE" value="en"
  --><!--#endif
+ --><?xml version="1.0" encoding="UTF-8"?>
 @@ -6,6 +7,7 @@
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
  <html xmlns="http://www.w3.org/1999/xhtml" lang="<!--#echo var="CONTENT_LANGUAGE" -->" xml:lang="<!--#echo var="CONTENT_LANGUAGE" -->">
  <head>
-+<base href="<!--#echo var="BASE_HREF" -->">
++<base href="<!--#echo var="BASE_HREF" -->"/>
  <title><!--#echo encoding="none" var="TITLE" --></title>
  <link rev="made" href="mailto:<!--#echo encoding="url" var="SERVER_ADMIN" -->" />
  <style type="text/css"><!--/*--><![CDATA[/*><!--*/ 

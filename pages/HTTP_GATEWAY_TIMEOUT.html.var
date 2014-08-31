@@ -5,9 +5,10 @@ Body:----------en--
 --><!--#include virtual="include/top.html" -->
 
 <img src="img/504-GatewayTimeout.jpg" alt="Hamster looking at his watch" width="450" height="450"/>
-<p>It appears our hamsters didn't make it on time!</p>
-</body>
-</html>
+</p>
+<p>It appears our hamsters didn't make it on time!
+
+<!--#include virtual="include/bottom.html" -->
 ----------en--
 
 Content-language: nb
@@ -15,9 +16,9 @@ Content-type: text/html; charset=UTF-8
 Body:----------nb--
 <!--#set var="TITLE" value="Gateway timet ut!" -->
 <!--#include virtual="include/top.html" -->
-
 <img src="img/504-GatewayTimeout.jpg" alt="Hamster som ser på klokken" width="450" height="450"/>
-<p>Det ser ut som om hamsterne våre ikke rakk frem i tide!</p>
-</body>
-</html>
+</p>
+<p>Det ser ut som om hamsterne våre ikke rakk frem i tide!
+
+<!--#include virtual="include/bottom.html" -->
 ----------nb--
