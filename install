@@ -5,6 +5,7 @@
 clean=false
 [ "$1" == "clean" ] && clean=true
 
+[ ! -d html ] && cp -r pages html
 cd html
 [ -d include ] && rm -r include
 
