@@ -38,3 +38,45 @@ $(document).ready(function() {
 </body>
 </html>
 ----------en--
+
+Content-language: nb
+Content-type: text/html; charset=UTF-8
+Body:----------nb--
+<!--#include virtual="include/config.html" -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Collection of HamsterPages</title>
+<meta charset="UTF-8">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="<!--#echo var="BASE_HREF" -->js/html2canvas.js" type="text/javascript" ></script>
+<script src="<!--#echo var="BASE_HREF" -->js/thumbrenderer.js" type="text/javascript" ></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    var parent = document.getElementById('thumbParent');
+    var tSize = 300.0;
+    var rSize = 700.0;
+    var scaling = tSize /rSize;
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_FORBIDDEN.html.var", parent, tSize, tSize, scaling);
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_GATEWAY_TIMEOUT.html.var", parent, tSize, tSize, scaling);
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_INTERNAL_SERVER_ERROR.html.var", parent, tSize, tSize, scaling);
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_NOT_FOUND.html.var", parent, tSize, tSize, scaling);
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_SCHEDULED_MAINTENANCE.html.var", parent, tSize, tSize, scaling);
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_SERVICE_UNAVAILABLE.html.var", parent, tSize, tSize, scaling);
+    createThumbFromURL("<!--#echo var="BASE_HREF" -->HTTP_UNAUTHORIZED.html.var", parent, tSize, tSize, scaling);
+});
+</script>
+<body>
+<h1>Samling av hamstersider</h1>
+<p>
+  Dette er en samling av feilmeldingssider med temaet at hamstere
+  kjører serverene våre. Alle sidene er tilgjengelige under en CC
+  BY-SA 4.0 lisens. Sidene er for tiden tilgjengelige på engelsk og
+  norsk. Kildekoden er tilgjengelig
+  på <a href="https://github.com/EFN/HamsterPages">GitHub</a>, og
+  patcher er velkomne.
+</p>
+<figure id="thumbParent"> </figure>
+</body>
+</html>
+----------nb--
