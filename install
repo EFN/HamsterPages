@@ -15,7 +15,6 @@ if ! $clean
 then
   svn export https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/error/include
   svn export --force https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/error/contact.html.var
-  patch contact.html.var ../patches/norwegian.patch
   patch include/top.html ../patches/base_href.patch
   if $APACHE22_SUPPORT
   then
