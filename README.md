@@ -9,4 +9,4 @@ This is a repository of the error pages used for the EFN webserver, everything i
 Examples
 ============
 
-You can see an example of the pages on the [EFN homepages](https://efn.no/error/efn)
+You can see an example of the pages on the [EFN homepages](https://efn.no/error)
