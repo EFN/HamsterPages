@@ -14,7 +14,7 @@ Content-language: nb
 Content-type: text/html; charset=UTF-8
 Body:----------nb--
 <!--#set var="CONTENT_LANGUAGE" value="nb"
---><!--#set var="TITLE" value="Autentisering kreves!"
+--><!--#set var="TITLE" value="Identitesbekreftelse kreves!"
 --><!--#include virtual="include/top.html" -->
 <img src="img/401-Unauthorized.jpg" alt="Hamster stopper deg" width="450" height="450"/>
 </p>

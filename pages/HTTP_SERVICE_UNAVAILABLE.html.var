@@ -11,9 +11,9 @@ Body:----------en--
 Content-language: nb
 Content-type: text/html; charset=UTF-8
 Body:----------nb--
-<!--#set var="TITLE" value="Serveren er midlertidig utilgjengelig" -->
+<!--#set var="TITLE" value="Tjeneren er midlertidig utilgjengelig" -->
 <!--#include virtual="include/top.html" -->
 <img src="img/503-ServiceUnavailable.jpg" alt="Utslitt hamster hvilende ved hamsterhjulet" width="450" height="450"/>
-<p>Våre hamstere er utslitt, og trenger å ta en liten pust i bakken. Men serveren bør snart være i gang igjen.</p>
+<p>Våre hamstere er utslitt, og trenger å ta en liten pust i bakken. Tjeneren bør snart være i gang igjen.</p>
 <!--#include virtual="include/bottom.html" -->
 ----------nb--

@@ -12,10 +12,10 @@ Body:----------en--
 Content-language: nb
 Content-type: text/html; charset=UTF-8
 Body:----------nb--
-<!--#set var="TITLE" value="Serverfeil!" -->
+<!--#set var="TITLE" value="Tjenerfeil!" -->
 <!--#include virtual="include/top.html" -->
 <img src="img/500-InternalServerError.jpg" alt="Hamster med en delt kabel" width="450" height="450"/>
 </p>
-<p>Det kan se ut som om en av hamsterene våre har gnagd over kabelen til serveren!</p>
+<p>Det kan se ut som om en av hamsterene våre har gnagd over kabelen til tjeneren!</p>
 <!--#include virtual="include/bottom.html" -->
 ----------nb--

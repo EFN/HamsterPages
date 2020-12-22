@@ -13,7 +13,7 @@ Body:----------en--
 Content-language: nb
 Content-type: text/html; charset=UTF-8
 Body:----------nb--
-<!--#set var="TITLE" value="Gateway timet ut!" -->
+<!--#set var="TITLE" value="Portner timet ut!" -->
 <!--#include virtual="include/top.html" -->
 <img src="img/504-GatewayTimeout.jpg" alt="Hamster som ser på klokken" width="450" height="450"/>
 </p>
